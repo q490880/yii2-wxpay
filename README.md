@@ -47,7 +47,7 @@ return [
         ],
     ],
 ];
-```
+
 [生成支付信息]
 $result = \Yii::$app->wxpay->unifiedOrder([
                 'attach'=>'扩展字段',
@@ -63,7 +63,7 @@ $result = \Yii::$app->wxpay->unifiedOrder([
 --------------------
 $result = false;
 if($notifyData = \Yii::$app->wxpay->notify()){
-	$result = "回调逻辑"
+	$result = "回调逻辑";
 }
 if($result){
 	echo '<xml><return_code><![CDATA[SUCCESS]]></return_code></xml>';
