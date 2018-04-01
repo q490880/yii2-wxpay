@@ -1,0 +1,26 @@
+{
+	"name":"xplwechat/weixin",
+	"type":"yii2-extension",
+	"description":"yii2微信支付组件",
+	"keywords":["yii2","wxpay","wechat"],
+	"license":"MIT",
+	"support":{
+		"issues":"https://github.com/q490880/yii2-wxpay/issues",
+		"form":"http://blog.csdn.net/q490880",
+		"source":"https://github.com/q490880/yii2-wxpay.git"
+	},
+    "authors": [
+		{
+			"name": "XuPengLiang",
+			"email": "11468804@qq.com"
+		}
+	],
+	"require":{
+		"yiisoft/yii2":"*"
+	},
+	"autoload":{
+		"psr-4":{
+			"xplwechat\\weixin\\":"src/"
+		}
+	}
+}
